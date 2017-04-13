@@ -18,7 +18,7 @@ And the data format between ec2 and Redshift is CSV.
     ssh-rsa AAAAB3NzaC1yc2....... root@ip-172-1-1-1
     ```
     All we need is "AAAAB3NzaC1yc2.......".
-1.  Create manifest file for Redshift and put it to s3://<your bucket>/<path you want>
+1.  Create manifest file for Redshift and put it to s3://\<your bucket\>/\<path you want\>
     ```
     {
         "entries": [
